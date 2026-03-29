@@ -16,15 +16,11 @@ Detta är en modern, interaktiv webbplats som presenterar olika dator-komponente
 - **JavaScript**: Interaktivitet utan externa bibliotek
 
 ## GitHub
-Se projektet live på: [https://github.com/Khalil10s/pc-components](https://github.com/Khalil10s/pc-components)
+Se projektet live på: [https://khalil10s.github.io/pc-components/](https://github.com/Khalil10s/pc-components)
 
 ## Färdigheter som Demonstreras
 - **Frontend-utveckling**: HTML, CSS, JavaScript
 - **Responsiv design**: CSS Grid och media queries
 - **Användarupplevelse (UX)**: Intuitiva interaktioner och animationer
-- **Versionhantering**: Git och GitHub
-
-
-
 
 -Khalil Shakra
