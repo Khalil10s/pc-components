@@ -180,3 +180,33 @@ h1 {
         max-width: none;
     }
 }
+
+/* Footer */
+footer {
+    background: var(--card-bg);
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid var(--info-bg);
+}
+
+.footer-content p {
+    margin: 0 0 10px 0;
+    color: #ccc;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.footer-links a:hover {
+    color: #0097a7;
+    text-decoration: underline;
+}

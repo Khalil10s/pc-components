@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header id="top">
         <h1>Dator Komponenter</h1>
         <input type="text" id="search" placeholder="Sök komponenter..." onkeyup="filterComponents()">
     </header>
@@ -117,7 +117,14 @@
     </main>
 
     <footer>
-        <p>&copy; 2022 Dator Komponenter. Byggt med passion.</p>
+        <div class="footer-content">
+            <p>&copy; 2022 Dator Komponenter. Byggt med passion.</p>
+            <div class="footer-links">
+                <a href="https://github.com/Khalil10s/pc-components" target="_blank">GitHub</a>
+                <a href="mailto:contact@example.com">Kontakt</a>
+                <a href="#top">Till toppen</a>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
