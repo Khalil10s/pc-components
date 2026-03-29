@@ -1,7 +1,8 @@
 // Function to toggle details visibility
-function toggle(element) {
-    const details = element.querySelector(".details");
+function toggleDetails(button) {
+    const details = button.previousElementSibling;
     details.classList.toggle("expanded");
+    button.textContent = details.classList.contains("expanded") ? "Visa mindre" : "Visa mer";
 }
 
 // Function to filter components based on search input
@@ -19,10 +20,7 @@ function filterComponents() {
     });
 }
 
-// Add click event listeners to components
+// Initialize app
 document.addEventListener("DOMContentLoaded", () => {
-    const components = document.querySelectorAll(".component");
-    components.forEach(component => {
-        component.addEventListener("click", () => toggle(component));
-    });
+    // No need to attach click listeners since we use buttons now
 });
